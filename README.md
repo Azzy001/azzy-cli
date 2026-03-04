@@ -39,7 +39,12 @@ Run the setup.sh script to set up the environment:
 * Set up zap-cli.py as a global command.
 
 ## 5. After Installation
-Once the script has completed, you can use zap-cli anywhere on your Ubuntu terminal. To verify that zap-cli is working, simply type:
+Once the script has completed, load your updated PATH (or open a new terminal), then run zap-cli from any directory:
+
+```bash
+source ~/.bashrc   # or close and reopen your terminal
+zap-cli
+```
 
 ### Notes:
 Ensure that bash is installed on your system to run the setup script.

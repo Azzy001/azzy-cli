@@ -25,7 +25,7 @@ parentdir = currentdir.parent
 def temp(folder_name, url):
     """Download a YouTube video given its URL into a specified folder."""
     # Define the base path where videos will be stored
-    video_base_path = parentdir / "misc/youtube_videos"
+    video_base_path = Path("/mnt/d/misc/youtube_videos")
     # Define the specific path for the video based on folder_name
     video_path = video_base_path / folder_name
     
